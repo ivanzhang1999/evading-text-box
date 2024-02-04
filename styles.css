@@ -1,9 +1,9 @@
-#button_no
+#button
 {
     color:red
 }
 
-#button_no.hovered {
+#button.hovered {
     transform: translate(var(--end-x), var(--end-y));
     transition: transform 1.0s ease;    /*adjusts the transition duration*/
 }
