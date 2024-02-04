@@ -23,6 +23,9 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+button_yes.addEventListener('click', function() {
+    alert('check under your pillow :D');
+});
 
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
